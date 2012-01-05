@@ -1,6 +1,6 @@
 require 'dl/import'
 module EarwormLib # :nodoc:
-  extend DL::Importable
+  extend DL::Importer
   loaded = false
   libs = %w{ libofa.dylib libofa.so libofa.so.0 }
   dirs = %w{ /opt/local/lib /usr/local/lib }
